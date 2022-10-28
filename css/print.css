@@ -1,0 +1,82 @@
+@media print {
+
+    
+body
+{
+    direction: rtl;
+    background-color: ;
+}
+footer 
+{
+    text-align: center;
+}
+hr
+{
+    border-top: 2px solid black;
+}
+.title
+{
+    text-align: center;
+}
+.committee 
+{
+    color: #DB3440;
+}
+.form-type
+{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/* table section */
+table, th, td, .evaluation-section 
+{   
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+background-color: #96D4D4;
+}
+th
+{
+    background-color: rgb(48, 48, 185);
+    color: #EEE;
+}
+.evaluation-th
+{
+    width: 10%;
+}
+.evaluation-section
+{
+    padding: 5px;
+}
+td 
+{
+    vertical-align: middle !important;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+.page-break
+{
+    page-break-before: always;
+}
+.header
+{
+    height: 70px;
+}
+.title
+{
+    margin-bottom: -30px;
+}
+.btn
+{
+    display: none;
+}
+.print-only
+{
+    display: block;
+}
+
+}

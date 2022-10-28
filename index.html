@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--[IE Compatibility meta]-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--[meta for mobile]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+    <meta name="description" content="description of content of the site">
+    <title>Islamic Affairs & Charitable Activities Department</title>
+        <!--[normalize file exists in bootstrap file]
+        <link rel="stylesheet" href="../css/normalize.css">
+-->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="css/bootstrap_rtl.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css" media="all">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="css/media.css">
+        <!--[if it's IE]-->
+    </head>
+    <style>
+
+    </style>
+    <body>
+        <section class="header">
+            <div class="container">
+                <img src="imgs/logo.png" alt="Logo"> 
+            </div>
+        </section>
+        <section class="title">
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="date"><h4>التاريخ: </h4><input required type="date"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="form-type">
+                            <h4>نموذج مقابلة </h4> 
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <label for="emam"> امام </label><input required name="emam" type="radio" name="form" value="emam">
+                                </div>
+                                <div class="col-xs-6">
+                                    <label for="crier"> مؤذن </label><input required name="crier" type="radio" name="form" value="crier">
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="committee">
+                            <h4>لجنة رقم (00)</h4>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <label for="first">مقابلة اول مرة </label><input required name="first" type="radio" name="meeting" value="first">
+                                </div>
+                                <div class="col-xs-6">
+                                    <label for="second"> اعادة مقابلة </label><input required name="second" type="radio" name="meeting" value="second">
+                                </div>
+                            </div>
+                      </div>  
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <section class="candidate">
+            <div class="container">
+                <div class="table-responsive">
+                    <form action="" method="">
+                        <table class="table">
+                            <tr>
+                                <div class="form-group">
+                                    <td>
+                                        <label for="exampleInputEmail1">اسم المرشح</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="اسم المرشح"> 
+                                    </td>
+                                    <td>
+                                        <label for="exampleInputEmail1">الجنسية</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="الجنسية"> 
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="form-group">
+                                    <td>
+                                        <label for="exampleInputEmail1">حالة المسجد</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="حالة المسجد"> 
+                                    </td>
+                                    <td>
+                                        <label for="exampleInputEmail1">اسم المسجد</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="اسم المسجد"> 
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="form-group">
+                                    <td>
+                                        <label for="exampleInputEmail1">المذهب</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="المذهب"> 
+                                    </td>
+                                    <td>
+                                        <label for="exampleInputEmail1">مقدار الحفظ</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="مقدار الحفظ"> 
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="form-group">
+                                    <td>
+                                        <label for="exampleInputEmail1">المؤهل</label>
+                                    </td>
+                                    <td>
+                                        <input required type="text" class="form-control" id="exampleInputEmail1" placeholder="المؤهل"> 
+                                    </td>
+                                </div>
+                            </tr>
+                        </table>
+                        <table class="table">
+                            <tr>
+                                <th rowspan="2">القدرات الوظيفية</th>
+                                <th rowspan="2">100%</th>
+                                <th rowspan="2">معايير التقييم</th>
+                                <th colspan="2">حدود الدرجة</th>
+                                
+                                <th class="evaluation-th" rowspan="2">تقييم المرشح</th>
+                                <th rowspan="2">الملاحظات</th>
+                            </tr>
+                            <tr>
+                                <th>حد أدنى</th>
+                                <th>حد أعلى</th>
+                            </tr>
+                            <tr>
+                                    <td rowspan="2">
+                                        السمات الشخصية
+                                    </td>
+                                    <td rowspan="2">
+                                        40% 
+                                    </td>
+                                    <td>
+                                        نداوة الصوت بالتلاوة
+                                    </td>
+                                    <td>
+                                        30
+                                    </td>
+                                    <td>
+                                        30
+                                    </td>
+                                    <td>
+                                        <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                    </td>
+                                    <td rowspan="9">
+                                        <textarea class="form-control" rows="22"></textarea>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    الهندام والمظهر العام
+                                </td>
+                                <td>
+                                    5 
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+<!-- //////////////////////////////////////////////////////////////////////////////// -->
+                            <tr>
+                                <td rowspan="3">المعارف المهنية</td>
+                                <td rowspan="3">30%</td>
+                                <td>حفظ القرآن الكريم</td>
+                                <td>8</td>
+                                <td>10</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>التجويد وأحكامه</td>
+                                <td>6</td>
+                                <td>10</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الفقه وأحكامه</td>
+                                <td>6</td>
+                                <td>10</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+<!-- //////////////////////////////////////////////////////////////////////////////// -->
+                            <tr>
+                                <td rowspan="3">المهارات الفنية</td>
+                                <td rowspan="3">30%</td>
+                                <td>الخطابة والإلقاء</td>
+                                <td>7</td>
+                                <td>10</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>اللغة العربية</td>
+                                <td>7</td>
+                                <td>10</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>التعامل و التواصل الإجتماعى</td>
+                                <td>6</td>
+                                <td>10</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>  
+<!-- //////////////////////////////////////////////////////////////////////////////// -->                          
+                            <tr>
+                                <td colspan="5">مجموع درجات تقييم المرشح</td>
+                                <td>
+                                    <input required type="number" class="form-control" id="exampleInputEmail1" placeholder="التقييم">
+                                </td>
+                            </tr>
+                        </table>
+                        <footer class=" print-only">
+                            <div class="container">
+                                <hr>
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        رقم الإصدار: 05
+                                    </div>
+                                    <div class="col-xs-4">
+                                        تاريخ الإصدار: 24/02/2022
+                                    </div>
+                                    <div class="col-xs-4">
+                                        رقم الإستمارة: HRD/F03/V5.0
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </footer>
+                        <table class="table">
+                            <!-- ///////////////////////////////////////////////////////////////////////// -->
+                            <tr>
+                                <th colspan="7">التقدير العام</th>
+                            </tr>
+                            
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+                            <tr>
+                                <div class="row">
+                                    <td colspan="7">
+                                        <div class="col-xs-4  evaluation-section">
+                                            <label for="good"> جيد  </label><input required name="good" type="radio" name="form" value="evaluation">
+                                        </div>
+                                        <div class="col-xs-4  evaluation-section">
+                                            <label for="intermediate"> متوسط </label><input required name="intermediate" type="radio" name="form" value="evaluation">
+                                        </div>
+                                        <div class="col-xs-4  evaluation-section">
+                                            <label for="low"> دون المستوى </label><input required name="low" type="radio" name="form" value="evaluation">
+                                        </div>
+                                        <div class="col-xs-4  evaluation-section">
+                                            [ 80% أو أعلى ]
+                                        </div>
+                                        <div class="col-xs-4  evaluation-section">
+                                             [ 70% - 79% ]
+                                        </div>
+                                        <div class="col-xs-4  evaluation-section">
+                                            [ 69% أو أقل]
+                                        </div>
+                                    </td>
+                                </div>                                
+                            </tr>
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+                            <tr>
+                                <th colspan="7">توصيات اللجنة</th>
+                            </tr>
+
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+                            <tr>
+                                <td colspan="7">
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </td>
+                            </tr>
+
+                        </table>                        
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>الإسم</th>
+                                    <th>المسمى الوظيفى</th>
+                                    <th>التوقيع</th>
+                                </tr>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td><input required class="form-control" type="text" placeholder="الإسم"></td>
+                                    <td><input required class="form-control" type="text" placeholder="المسمى الوظيفى"></td>
+                                    <td><input required class="form-control" type="text" placeholder="التوقيع"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table  page-break">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>رئيس اللجنة</th>
+                                    <th>نائب رئيس اللجنة</th>
+                                    <th>عضو ومقرر اللجنة</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>الإسم</td>
+                                    <td><input required class="form-control" type="text" placeholder="رئيس اللجنة"></td>
+                                    <td><input required class="form-control" type="text" placeholder="نائب رئيس اللجنة"></td>
+                                    <td><input required class="form-control" type="text" placeholder="عضو ومقرر اللجنة"></td>
+                                </tr>
+                                <tr>
+                                    <td>التوقيع</td>
+                                    <td><input required class="form-control" type="text" placeholder="رئيس اللجنة"></td>
+                                    <td><input required class="form-control" type="text" placeholder="نائب رئيس اللجنة"></td>
+                                    <td><input required class="form-control" type="text" placeholder="عضو ومقرر اللجنة"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>             
+                </div>
+            </div>    
+        </section>
+        <footer>
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <div class="col-xs-4">
+                        رقم الإصدار: 05
+                    </div>
+                    <div class="col-xs-4">
+                        تاريخ الإصدار: 24/02/2022
+                    </div>
+                    <div class="col-xs-4">
+                        رقم الإستمارة: HRD/F03/V5.0
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </footer>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

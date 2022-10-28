@@ -1,0 +1,65 @@
+body
+{
+    direction: rtl;
+    background-color: ;
+}
+footer 
+{
+    text-align: center;
+}
+.print-only 
+{
+    display: none;
+}
+.header img
+{
+    width: 100%;
+}
+hr
+{
+    border-top: 2px solid black;
+}
+.title
+{
+    text-align: center;
+}
+.committee 
+{
+    color: #DB3440;
+}
+.form-type
+{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/* table section */
+table, th, td, .evaluation-section 
+{   
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+background-color: #96D4D4;
+}
+th
+{
+    background-color: rgb(48, 48, 185);
+    color: #EEE;
+}
+.evaluation-th
+{
+    width: 10%;
+}
+.evaluation-section
+{
+    padding: 5px;
+}
+.table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th 
+{ 
+    vertical-align: middle !important;
+}
+td 
+{
+    vertical-align: middle !important;
+}
